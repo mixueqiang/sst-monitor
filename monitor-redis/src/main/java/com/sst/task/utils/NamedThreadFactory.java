@@ -1,4 +1,4 @@
-package cc.walkup.task.utils;
+package com.sst.task.utils;
 
 import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.atomic.AtomicInteger;

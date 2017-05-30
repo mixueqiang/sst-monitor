@@ -1,4 +1,4 @@
-package cc.walkup.task.utils;
+package com.sst.task.utils;
 
 import java.util.Date;
 

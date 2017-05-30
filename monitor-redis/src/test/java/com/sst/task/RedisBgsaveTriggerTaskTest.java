@@ -1,4 +1,4 @@
-package cc.walkup.task;
+package com.sst.task;
 
 import org.junit.Test;
 

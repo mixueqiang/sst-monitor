@@ -1,4 +1,4 @@
-package cc.walkup.task;
+package com.sst.task;
 
 import java.io.BufferedReader;
 import java.io.InputStream;
@@ -9,8 +9,9 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.stereotype.Service;
 
-import cc.walkup.task.utils.LogUtils;
-import cc.walkup.task.utils.TaskScheduler;
+import com.sst.task.utils.LogUtils;
+import com.sst.task.utils.TaskScheduler;
+
 import redis.clients.jedis.Jedis;
 
 /**

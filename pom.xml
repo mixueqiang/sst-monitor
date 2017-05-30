@@ -13,6 +13,7 @@
   </properties>
 
   <modules>
+    <module>monitor-redis</module>
   </modules>
 
   <build>

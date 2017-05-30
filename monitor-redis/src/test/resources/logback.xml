@@ -8,7 +8,7 @@
     </layout>
   </appender>
 
-  <logger name="cc.walkup" level="INFO" />
+  <logger name="com.sst" level="INFO" />
 
   <root level="INFO">
     <appender-ref ref="STDOUT" />

@@ -1,4 +1,4 @@
-package cc.walkup.bootstrap;
+package com.sst.bootstrap;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

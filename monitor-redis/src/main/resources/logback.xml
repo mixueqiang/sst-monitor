@@ -21,7 +21,7 @@
     </layout>
   </appender>
 
-  <logger name="cc.walkup" level="TRACE" />
+  <logger name="com.sst" level="TRACE" />
   <logger name="org.springframework" level="INFO" />
 
   <root level="INFO">
