@@ -9,9 +9,9 @@
   </appender>
 
   <appender name="FILEOUT" class="ch.qos.logback.core.rolling.RollingFileAppender">
-    <file>/home/logs/walkup/task/task.log</file>
+    <file>/home/log/monitor/task.log</file>
     <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-      <fileNamePattern>/home/logs/walkup/task/task.log.%d{yyyy-MM-dd}.log</fileNamePattern>
+      <fileNamePattern>/home/log/monitor/task.log.%d{yyyy-MM-dd}.log</fileNamePattern>
       <maxHistory>15</maxHistory>
     </rollingPolicy>
     <layout class="ch.qos.logback.classic.PatternLayout">
