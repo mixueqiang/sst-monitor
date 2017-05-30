@@ -46,7 +46,10 @@ public class RedisBgsaveTriggerTask implements Runnable {
 
           jedis = new Jedis(host, Integer.parseInt(port));
           jedis.bgsave();
-          LogUtils.info(LOG, "Bgsave executed on {0}.", line);
+          LogUtils.info(LOG, "Bgsave is executing on {0}.", line);
+
+          // 等待持久化结束。
+          Thread.sleep(2 * 60 * 1000L);
 
         } catch (Throwable t) {
           LogUtils.error(LOG, t, "Failed to execute bgsave commond on {0}.", line);
